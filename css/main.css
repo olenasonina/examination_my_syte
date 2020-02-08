@@ -458,6 +458,10 @@ body {
     background-color: rgba(80, 112, 123, 0.4);
 }
 
+/* .our__work-photos {
+    width: 90%;
+    margin: 0 auto;
+} */
 
 .photos__block {
     padding: 0 10px;
@@ -467,13 +471,14 @@ body {
     bottom: -40px;
 }
 
-.slick-next {
+/* .slick-next {
     right: -40px;
 }
 
 .slick-prev {
     left: -40px;
-}
+} */
+
 
 
 .footer {
@@ -637,10 +642,11 @@ body {
 }
 .carousel-indicators,
 .carousel-control-prev,
-.carousel-control-next,
-.slick-next,
-.slick-prev {
+.carousel-control-next {
     z-index: -1;
+}
+.slick-dotted.slick-slider>.slick-arrow {
+    display: none;
 }
 .slick-dots {
     display: none;
@@ -748,8 +754,7 @@ body {
     max-width: 75%;
 }
 .carousel-control-prev,
-.carousel-control-next,
-.slick-dots {
+.carousel-control-next {
     z-index: 1;
 }
 .title {
