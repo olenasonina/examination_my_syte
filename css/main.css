@@ -18,9 +18,33 @@ body {
     padding-bottom: 4px;
 }
 
+.phone__item {
+    position: relative;
+    text-decoration: none;
+    list-style: none;
+}
+
 .icon-phone {
     display: flex;
     align-items: center;
+}
+
+.navbarHeader .navbar-nav .phone__item:hover .phone__select {
+    display: block;
+}
+
+.navbarHeader .navbar-nav .phone__item .phone__select {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    display: none;
+}
+
+.phone__select {
+    background-color: #111d1e;
+    padding: 0;
 }
 
 .icon-phone::before {
@@ -504,7 +528,9 @@ body {
     justify-content: center;
     align-items: center;
     color: #989293;
+    margin: 0;
 }
+
 
 .footer_nav ul {
     background-color: #111D1E;
@@ -592,6 +618,361 @@ body {
 .footer__links ul li:nth-child(3) a:hover {
     background: #c4302b;
 }
+
+
+
+
+
+.aboutUs__dop {
+    background: url(../img/dopstr/9.png);
+    width: 100%;
+    height: 25vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.aboutUs__dop-contant {
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    padding: 30px 0 20px;
+    font-size: 24px;
+}
+
+.aboutUs__dop-contant p,
+.aboutUs__dop-contant ul li {
+    text-align: justify;
+    font-size: 14px;
+    line-height: 1.5em;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.baget__dop {
+    background: url(../img/dopstr/catalog-baget.png);
+    width: 100%;
+    height: 25vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h4 {
+    padding: 10px 0 5px;
+    font-size: 18px;
+}
+
+.sidebar-sticky {
+    padding-bottom: 50px;
+}
+
+.dop {
+    margin-top: 30px;
+}
+
+.dop:first-child {
+    margin-top: 0px;
+}
+
+.form__button {
+    margin: 20px 0 0;
+    display: inline-block;
+    font-weight: 900;
+    color: #111D1E;
+    background: #DCA780;
+    padding: 10px 20px;
+    transition: 0.5s;
+}
+
+.form__button:hover,
+.form__button:focus {
+    background: #80371A;
+    color: #fff;
+    transition: 0s;
+}
+
+
+.shop-products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product__card {
+    padding: 15px;
+    margin-bottom: 30px;
+    background: #fff;
+    box-shadow: 0 10px 10px rgba(80, 112, 123, 0.8);
+    height: 350px;
+    width: 250px;
+}
+
+.product__card-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product__card-box .product__card-Imgbox {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+}
+
+.product__card-box .product__card-Imgbox:hover .icons {
+    z-index: 2;
+    transition: 0.5s;
+}
+
+.product__card-box .product__card-Imgbox:hover img {
+    /* width: 120%;
+    height: 120%;
+    object-fit: fill; */
+    /* transition: 3s; */
+}
+
+.product__card-box .product__card-Imgbox img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.product__card-box .product__card-Imgbox:hover img {
+    transform: scale(1.1);
+}
+
+.product__card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.product__card-Imgbox .icons {
+    position: absolute;
+    z-index: -1;
+    bottom: 20px;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+    right: 5px;
+}
+
+.product__card-Imgbox .icons a {
+    width: 35px;
+    height: 35px;
+    background: #111D1E;
+    margin: 5px;
+}
+
+.product__card-Imgbox .icons a:hover {
+    background: #80371A;
+}
+
+.product__card-Imgbox .icons a i {
+    color: #fff;
+    text-align: center;
+    line-height: 35px;   
+    font-size: 20px;
+}
+
+.breadcrumb-format li a {
+    color: #80371A;
+}
+
+.products__pagination {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 50px;
+}
+
+.contacts__dop {
+    background-image: url(../img/dopstr/main-pic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25vh;
+}
+
+.contacts__container {
+   text-align: center;
+}
+
+.contacts__shedule p {
+    display: flex;
+    justify-content: left;
+}
+
+.contacts__img img {
+    width: 50%;
+}
+
+.contacts__shedule p .day,
+.contacts__shedule p .hour {
+    width: 50%;
+}
+
+.contacts__adress p a {
+    text-decoration: none;
+    color: #22262a;
+}
+
+.contacts__shedule p,
+.contacts__way p,
+.contacts__adress p {
+    font-size: 14px;
+    line-height: 1em;
+}
+
+.map {
+    padding-top: 30px;
+}
+
+.servicies__dop {
+    background-image: url(../img/dopstr/servicies/service-top.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25vh;    
+}
+
+.servicies__dop-item {
+    position: relative;
+    margin: 15px 0;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.servicies__dop-name {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    background-color: rgba(33, 37, 41, 0.4);
+
+}
+
+.servicies__dop-name span {
+    color: #fff;
+    margin: 0;
+}
+
+.servicies__dop-image img {
+    width: 100%;
+}
+
+.servicies__dop-item:hover .servicies__dop-image img {
+    transform: scale(1.1);
+}
+
+
+.servicies__dop-name .big {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.servicies__dop-name .small {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.blog__dop {
+    background-image: url(../img/dopstr/blog-top.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25vh;    
+}
+
+.blog__dop-content {
+    padding: 0;
+    margin: 0;
+}
+
+.blog__dop-post {
+    max-height: 400px;
+    overflow: hidden;
+}
+
+.blog__dop-text {
+    overflow: hidden;
+}
+
+.blog__dop-img {
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.blog__dop-textcontainer {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.blog__dop-textcontainer a {
+    margin: 20px 0 0;
+    padding: 10px 20px;
+    font-size: 16px;
+    line-height: 16px;
+    display: inline-block;
+    margin: 0 right;
+    text-decoration: none;
+    font-weight: 900;
+    color: #111D1E;
+    background: #DCA780;
+    text-align: center;
+    width: 160px;
+    transition: 0.5s;
+}
+
+.blog__dop-textcontainer a:hover,
+.blog__dop-textcontainer a:focus {
+    background: #80371A;
+    color: #fff;
+    transition: 0s;
+}
+
+..style__card__img .card-content a:hover, .style__card__img .card-content a:focus {
+    background: 
+#80371A;
+color:
+    #fff;
+    transition: 0s;
+}
+
+.blog__dop-text h5 {
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    text-align: justify;
+} 
+
+.blog__dop-text p {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    text-align: justify;
+    text-indent: 1.5em;
+}
+
 
 
 
@@ -723,7 +1104,7 @@ body {
 }
 .footer__logo {
     display: none;
-}
+}contacts__adress
 .footer__navbar {
     padding-right: 15px;
     padding-left: 15px;
@@ -735,6 +1116,12 @@ body {
     justify-content: space-between;
     padding-right: 15px;
     padding-left: 15px;
+}
+.contacts__shedule,
+.contacts__way,
+.contacts__adress {
+    padding-top: 10px;
+}
 }
 
 
@@ -807,6 +1194,16 @@ body {
 .slick-dots {
     display: block;
 }
+.contacts__shedule,
+.contacts__way {
+    padding-top: 15px;
+}
+.contacts__img img {
+    width: 100%;
+}
+.contacts__container {
+    text-align: left;
+}
 }
 
 @media (min-width: 768px) {
@@ -842,6 +1239,10 @@ body {
 .navbar-nav2 {
     display: flex;
     justify-content: space-around;
+}
+
+.phone__select {
+    background-color: #fff;
 }
 
 .navbar__logo2 {
@@ -931,6 +1332,17 @@ body {
     padding-right: 0px;
     padding-left: 0px;
 }
+.aboutUs__dop-contant p,
+.aboutUs__dop-contant ul li{
+    font-size: 16px;
+}
+.contacts__shedule p,
+.contacts__way p,
+.contacts__adress p {
+    font-size: 16px;
+    line-height: 1.5em;
+}
+}
 
 @media (min-width: 992px) {
 .navbarHeader__logo img {
@@ -993,6 +1405,31 @@ body {
 .features_content-points {
     padding-bottom: 15px;
 }
+
+h2 {
+    padding: 50px 0 30px;
+    font-size: 28px;
+}
+.aboutUs__dop-contant p,
+.aboutUs__dop-contant ul li{
+    line-height: 2em;
+}
+h4 {
+    padding: 30px 0 10px;
+    font-size: 20px;
+}
+.sidebar-sticky {
+    padding-bottom: 70px;
+}
+.dop {
+    margin-top: 50px;
+}
+.aboutUs__dop {
+    height: 35vh;
+}
+.contacts__dop {
+    height: 35vh;
+}
 }
 
 @media (min-width: 1100px) {
@@ -1011,6 +1448,9 @@ body {
 }
 .title h1 {
     font-size: 2.5em;
+}
+.shop-products {
+    justify-content: space-between;
 }
 .style__card__img { 
     height: 450px; 
