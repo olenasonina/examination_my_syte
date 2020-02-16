@@ -625,7 +625,7 @@ body {
     height: 25vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: top;
 }
 
 .aboutUs__dop-contant {
