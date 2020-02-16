@@ -1,13 +1,4 @@
 @font-face {
-    font-family: "Montserrat-Black";
-    src: url("../fonts/Montserrat-Black/Montserrat-Black.eot");
-    src: url("../fonts/Montserrat-Black/Montserrat-Black.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/Montserrat-Black/Montserrat-Black.woff") format("woff"),
-    url("../fonts/Montserrat-Black/Montserrat-Black.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-@font-face {
     font-family: "Montserrat-Regular";
     src: url("../fonts/Montserrat/Montserrat-Regular.eot");
     src: url("../fonts/Montserrat/Montserrat-Regular.eot?#iefix")format("embedded-opentype"),

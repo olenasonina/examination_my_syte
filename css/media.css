@@ -1,19 +1,6 @@
 @media (min-width: 100px) {
     
-
-    /* .icon-phone::before {
-        font-size: 20px;
-    } */
-    /* .nav {
-        background-color: #fff;
-    } */
-    /* .navbarHeader__logo {
-        display: none;
-    } */
-    /* .navbar__logo2 img {
-        max-width: 170px;
-    } */
-    
+  
     .navbar-nav2 {
         background-color: #50707b;
         display: inline-block;
@@ -123,7 +110,6 @@
     .contacts__adress {
         padding-top: 10px;
     }
-    
     }
     
     
@@ -452,13 +438,19 @@
         margin-top: 50px;
     }
     .aboutUs__dop {
-        height: 35vh;
+        height: 45vh;
     }
     .contacts__dop {
-        height: 35vh;
+        height: 40vh;
+    }
+    .baget__dop {
+        height: 40vh; 
     }
     .blog__dop-post {
         max-height: 400px;
+    }
+    .servicies__dop {
+        height: 40vh;
     }
     }
     
