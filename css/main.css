@@ -829,6 +829,10 @@ h5 {
     padding-top: 30px;
 }
 
+iframe {
+    width: 100%;
+}
+
 .servicies__dop {
     background-image: url(../img/dopstr/servicies/service-top.png);
     background-repeat: no-repeat;
@@ -934,7 +938,6 @@ h5 {
     font-size: 16px;
     line-height: 16px;
     display: inline-block;
-    margin: 0 right;
     text-decoration: none;
     font-weight: 900;
     color: #111D1E;
