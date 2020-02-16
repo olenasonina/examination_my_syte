@@ -7,3 +7,31 @@
     font-style: normal;
     font-weight: normal;
 }
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url("../fonts/Montserrat/Montserrat-Regular.eot");
+    src: url("../fonts/Montserrat/Montserrat-Regular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/Montserrat/Montserrat-Regular.woff") format("woff"),
+    url("../fonts/Montserrat/Montserrat-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "opensans";
+    src: url("../fonts/opensans/OpenSans.eot");
+    src: url("../fonts/opensans/OpenSans.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/opensans/OpenSans.woff") format("woff"),
+    url("../fonts/opensans/OpenSans.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Helvetica";
+    src: url("../fonts/Helvetica/Helvetica.eot");
+    src: url("../fonts/Helvetica/Helvetica.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/Helvetica/Helvetica.woff") format("woff"),
+    url("../fonts/Helvetica/Helvetica.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}

@@ -1,0 +1,528 @@
+@media (min-width: 100px) {
+    
+
+    /* .icon-phone::before {
+        font-size: 20px;
+    } */
+    /* .nav {
+        background-color: #fff;
+    } */
+    /* .navbarHeader__logo {
+        display: none;
+    } */
+    /* .navbar__logo2 img {
+        max-width: 170px;
+    } */
+    
+    .navbar-nav2 {
+        background-color: #50707b;
+        display: inline-block;
+    }
+    
+    .mySlider__img {
+        width: 150%;
+    }
+    .carousel-indicators,
+    .carousel-control-prev,
+    .carousel-control-next {
+        z-index: -1;
+    }
+    .slick-dotted.slick-slider>.slick-arrow {
+        display: none;
+    }
+    .slick-dots {
+        display: none;
+    }
+    .title {
+        padding: 20px 0 10px;
+    }
+    .title h2 {
+        font-size: 1.5em;
+        font-family: "opensans";
+    }
+    .style__card__img { 
+        height: 200px; 
+        width: 80%; 
+        margin: 0 auto;
+    }
+    .style,
+    .servicies {
+        padding-bottom: 10px;
+    }
+    .style__card__box{
+        padding-bottom: 10px;
+        padding-top: 5px;
+    }
+    .style__card__img .card-content {
+        padding: 5px;
+        height: 30px;
+        bottom: 5px;
+    }
+    .style__card__img .card-content h4 {
+        font-size: 16px;
+    }
+    .style__card__img .card-content p {
+        font-size: 14px;
+        line-height: 1em;
+        margin: 5px 0 0;
+    }
+    .style__card__img .card-content a {
+        margin: 5px 0 0;
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+    .about__content p {
+        font-size: 16px;
+    }
+    .servicies__content__h6 button {
+        font-size: 16px;
+    }
+    .servicies_content {
+        padding-left: 0px;
+    }
+    .features_content-discount,
+    .features_content-points {
+        line-height: 1.2em;
+    }
+    .discount__block-amount p {
+        font-size: 15px;
+    }
+    .discount__block-amount h2 {
+        font-size: 22px;
+    }
+    .features_content-points ul{
+        padding-left: 10px;
+    }
+    .discount__block-condition {
+        padding-bottom: 5px;
+    }
+    
+    .features_content-points {
+        padding-bottom: 5px;
+    }
+    .footer__logo2 {
+        display: block;
+    }
+    .footer__logo {
+        display: none;
+    }contacts__adress
+    .footer__navbar {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .footer__none {
+        display: none;
+    }
+    .footer_nav {
+        justify-content: space-between;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .contacts__shedule,
+    .contacts__way,
+    .contacts__adress {
+        padding-top: 10px;
+    }
+    
+    }
+    
+    
+    @media (min-width: 576px) {
+    .navbarHeader__logo img {
+        width: 120%;
+    }
+    
+    .navbar-nav>.navbar-item>.phone__link::after {
+        padding-right: 10px;
+    }
+    .navbar-item a {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .navbar__logo2 img {
+        max-width: 75%;
+    }
+    .carousel-control-prev,
+    .carousel-control-next {
+        z-index: 1;
+    }
+    .title {
+        padding: 30px 0 20px;
+    }
+    .style__card__img { 
+        height: 220px; 
+        width: 100% 
+    }
+    .style,
+    .servicies {
+        padding-bottom: 30px;
+    }
+    .style__card__box{
+        padding-bottom: 15px;
+        padding-top: 10px;
+    }
+    .style__card__img .card-content {
+        padding: 5px;
+        height: 30px;
+        bottom: 5px;
+    }
+    .style__card__img .card-content h4 {
+        font-size: 18px;
+        font-family: "Montserrat-Regular";
+    }
+    .style__card__img .card-content a {
+        margin: 10px 0 0;
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+    .servicies__content__h6 button {
+        font-size: 18px;
+    }
+    .servicies_content {
+        padding-left: 15px;
+    }
+    .features_content-discount,
+    .features_content-points {
+        line-height: 1.2em;
+    }
+    .discount__block-amount p {
+        font-size: 16px;
+    }
+    .discount__block-amount h2 {
+        font-size: 28px;
+    }
+    .features_content-points ul{
+        padding-left: 20px;
+    }
+    .slick-dots {
+        display: block;
+    }
+    .contacts__shedule,
+    .contacts__way {
+        padding-top: 15px;
+    }
+    .contacts__img img {
+        width: 100%;
+    }
+    .contacts__container {
+        text-align: left;
+    }
+    .blog__dop-post {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .blog__dop-imgcontainer img {
+        width: 100%;
+    }
+    .blog__dop-textcontainer {
+        padding: 0 0 0 30px;
+    }
+    
+    .blog__dop-text h6 {
+        text-align: left;
+        padding-top: 0;
+        font-size: 16px;
+    }
+    }
+    
+    @media (min-width: 768px) {
+    
+    .navbarHeader__logo img {
+        width: 80%;
+    }
+    .navbarHeader {
+        background-color: #fff;
+    }
+    .navbar-nav .navbar-item {
+        font-size: 16px;
+    }
+    .navbar-nav {
+        border-top: 1px solid #9ba4b0;
+        border-bottom: 1px solid #9ba4b0;
+    }
+    .navbar-nav>.navbar-item>.phone__link::after {
+        padding-right: 15px;
+    }
+    .navbar-item a {
+        padding-left: 15px;
+        padding-right: 15px;
+        color: #111D1E;
+    }
+    
+    .icon-phone::before {
+        font-size: 24px;
+    }
+    .nav {
+        background-color: #50707b;
+    }
+    .navbar-nav2 {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .phone__select {
+        background-color: #fff;
+    }
+    
+    .navbar__logo2 {
+        display: none;
+    }
+    .navbarHeader__logo {
+        display: block;
+    }
+    .mySlider__img {
+        width: 100%;
+    }
+    .carousel-indicators {
+        z-index: 1;
+    }
+    
+    .title {
+        padding: 40px 0 25px;
+    }
+    .title h2 {
+        font-size: 2em;
+    }
+    .style__card__img { 
+        height: 290px; 
+        width: 100% 
+    }
+    .style,
+    .servicies {
+        padding-bottom: 50px;
+    }
+    .style__card__box{
+        padding-bottom: 20px;
+        padding-top: 10px;
+    }
+    .style__card__img .card-content {
+        padding: 5px;
+        height: 40px;
+        bottom: 10px;
+    }
+    .style__card__img .card-content h4 {
+        font-size: 20px;
+    }
+    .style__card__img .card-content p {
+        font-size: 16px;
+        line-height: 1.2em;
+        margin: 7px 0 0;
+    }
+    .style__card__img .card-content a {
+        margin: 15px 0 0;
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+    .about__content p {
+        padding: 40px 20px;
+        line-height: 2em;
+        font-size: 20px;
+    }
+    .about__content p {
+        font-size: 18px;
+    }
+    .servicies__content__h6 button {
+        font-size: 20px;
+    }
+    .discount__block-amount h2 {
+        font-size: 2.5rem;
+    }
+    .discount__block-condition {
+        padding-bottom: 15px;
+    }
+    .features_content-points {
+        padding-bottom: 10px;
+    }
+    .footer__logo2 {
+        display: none;
+    }
+    .footer__logo {
+        display: flex;
+    }
+    .footer_nav {
+        width: 100%;
+    }
+    
+    .footer__none {
+        display: block;
+    }
+    .footer_nav {
+        justify-content: center;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .aboutUs__dop-contant p,
+    .aboutUs__dop-contant ul li{
+        font-size: 16px;
+    }
+    .contacts__shedule p,
+    .contacts__way p,
+    .contacts__adress p {
+        font-size: 16px;
+        line-height: 1.5em;
+    }
+    .blog__dop-text p,
+    .blog__dop-textcontainer a {
+        font-size: 16px;
+        line-height: 1.5em;
+    }
+    .blog__dop-text h6 {
+        font-size: 18px;
+    }
+    }
+    
+    @media (min-width: 992px) {
+    .navbarHeader__logo img {
+        width: 60%;
+    }
+    
+    .navbar-nav>.navbar-item>.phone__link::after {
+        padding-right: 20px;
+    }
+    .navbar-item a {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .style__card__img { 
+        height: 375px; 
+        width: 100% 
+    }
+    .style,
+    .servicies {
+        padding-bottom: 70px;
+    }
+    .style__card__box{
+        padding-bottom: 25px;
+        padding-top: 15px;
+    }
+    .style__card__img .card-content {
+        padding: 10px;
+        height: 50px;
+        bottom: 15px;
+    }
+    .style__card__img .card-content h4 {
+        font-size: 22px;
+    }
+    .style__card__img .card-content p {
+        font-size: 16px;
+        line-height: 1.3em;
+        margin: 10px 0 0;
+    }
+    .style__card__img .card-content a {
+        margin: 15px 0 0;
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+    .about__content p {
+        font-size: 20px;
+    }
+    .servicies__content__h6 button {
+        font-size: 24px;
+    }
+    .features_content-discount,
+    .features_content-points {
+        line-height: 1.5em;
+    }
+    .discount__block-amount p {
+        font-size: 18px;
+    }
+    .discount__block-condition {
+        padding-bottom: 20px;
+    }
+    .features_content-points {
+        padding-bottom: 15px;
+    }
+    
+    h3 {
+        padding: 50px 0 30px;
+        font-size: 28px;
+    }
+    .aboutUs__dop-contant p,
+    .aboutUs__dop-contant ul li{
+        line-height: 2em;
+    }
+    h5 {
+        padding: 30px 0 10px;
+        font-size: 20px;
+    }
+    .sidebar-sticky {
+        padding-bottom: 70px;
+    }
+    .dop {
+        margin-top: 50px;
+    }
+    .aboutUs__dop {
+        height: 35vh;
+    }
+    .contacts__dop {
+        height: 35vh;
+    }
+    .blog__dop-post {
+        max-height: 400px;
+    }
+    }
+    
+    @media (min-width: 1100px) {
+    .navbarHeader__logo img {
+        width: 60%;
+    }
+    .navbar-nav>.navbar-item>.phone__link::after {
+        padding-right: 25px;
+    }
+    .navbar-item a {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .title {
+        padding: 50px 0 30px;
+    }
+    .title h2 {
+        font-size: 2.5em;
+    }
+    .shop-products {
+        justify-content: space-between;
+    }
+    .style__card__img { 
+        height: 450px; 
+        width: 100% 
+    }
+    .style,
+    .servicies {
+        padding-bottom: 100px;
+    }
+    .style__card__box{
+        padding-bottom: 30px;
+        padding-top: 20px;
+    }
+    .style__card__img .card-content {
+        padding: 15px;
+        height: 60px;
+        bottom: 20px;
+    }
+    .style__card__img .card-content h4 {
+        font-size: 24px;
+    }
+    .style__card__img .card-content p {
+        font-size: 16px;
+        line-height: 1.5em;
+        margin: 10px 0 0;
+    }
+    .style__card__img .card-content a {
+        margin: 20px 0 0;
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+    .features_content-discount,
+    .features_content-points {
+        line-height: 2em;
+    }
+    .discount__block-amount p {
+        font-size: 20px;
+    }
+    .discount__block-condition {
+        padding-bottom: 30px;
+    }
+    .features_content-points {
+        padding-bottom: 20px;
+    }
+    }
